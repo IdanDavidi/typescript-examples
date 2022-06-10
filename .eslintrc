@@ -1,0 +1,42 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 13
+  },
+  "rules": {
+    "indent": ["error", 2],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"]
+  }
+}
+
+// {
+//   "env": {
+//     "es6": true,
+//     "node": true,
+//     "mocha": true
+//   },
+//   "overrides": [
+//     {
+//       "files": ["**/*.ts", "**/*.tsx"],
+//       "extends": [
+//         "plugin:@typescript-eslint/eslint-recommended",
+//         "plugin:@typescript-eslint/recommended"
+//       ],
+//       "parser": "@typescript-eslint/parser",
+//       "plugins": ["@typescript-eslint"],
+//       "parserOptions": {
+//         "project": "tsconfig.json"
+//       },
+//       "rules": {
+//         "@typescript-eslint/no-floating-promises": ["error"]
+//       }
+//     }
+//   ]
+// }
