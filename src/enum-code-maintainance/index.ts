@@ -1,11 +1,11 @@
 enum EventType {
-  CLICK = 'click',
-  DOUBLE_CLICK = 'double_click',
-  // TRIPLE_CLICK = 'triple_click',
+  CLICK = "click",
+  DOUBLE_CLICK = "double_click",
+  // TRIPLE_CLICK = "triple_click",
 }
 
 type EventHandlersMapping = {
-  [key in EventType]: Function;
+  [key in EventType]: () => void;
 };
 
 const EVENT_HANDLERS: EventHandlersMapping = {

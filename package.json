@@ -1,11 +1,22 @@
 {
-  "name": "typescript",
+  "name": "typescript-examples",
   "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "nodemon": "nodemon",
+    "ts-node": "ts-node",
+    "lint": "eslint --ext .js,.ts -f table src",
+    "lint-fix": "eslint --fix --ext .js,.ts -f table src"
+  },
   "dependencies": {
     "@blitz/eslint-plugin": "^0.0.36",
     "@typescript-eslint/eslint-plugin": "^5.27.1",
     "@typescript-eslint/parser": "^5.0.0",
-    "eslint": "^8.17.0"
+    "eslint": "^8.17.0",
+    "typescript": "^4.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.8.1"
   }
 }

@@ -1,1 +1,1 @@
-import './index6';
+import "./src/no-floating-promises/index";
