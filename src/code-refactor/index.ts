@@ -1,5 +1,5 @@
 import { Person } from "./types";
 
-function foo(person: Person) {
+function logPersonName(person: Person) {
   console.log(person.name);
 }
